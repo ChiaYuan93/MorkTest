@@ -31,7 +31,7 @@ void test_readBit_given_xxx_should_xxx(){
 
 void test_readTurnAroundIO(){}
 
-void writeTurnAroundIO(){}
+//void writeTurnAroundIO(){}
 
 // void test_writeData_given_0xCD_and_address_0xDEAD_and_data_0xCA_should_sent_out_0xCDDEADC0(){
   // int bit;

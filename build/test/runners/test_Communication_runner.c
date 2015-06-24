@@ -38,6 +38,7 @@ extern void tearDown(void);
 extern void test_sendBitHigh_given_xxx_should_xxx(void);
 extern void test_sendBitLow_given_xxx_should_xxx(void);
 extern void test_readBit_given_xxx_should_xxx(void);
+extern void test_readTurnAroundIO(void);
 
 
 //=======Mock Management=====
@@ -76,6 +77,7 @@ int main(void)
   RUN_TEST(test_sendBitHigh_given_xxx_should_xxx, 10);
   RUN_TEST(test_sendBitLow_given_xxx_should_xxx, 17);
   RUN_TEST(test_readBit_given_xxx_should_xxx, 24);
+  RUN_TEST(test_readTurnAroundIO, 32);
 
   CMock_Guts_MemFreeFinal();
   return (UnityEnd());
