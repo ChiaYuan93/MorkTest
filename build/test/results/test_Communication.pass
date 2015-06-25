@@ -1,0 +1,23 @@
+---
+:source:
+  :path: test
+  :file: test_Communication.c
+:successes:
+- :test: test_sendBitHigh_given_xxx_should_xxx
+  :line: 10
+  :message: ''
+- :test: test_sendBitLow_given_xxx_should_xxx
+  :line: 17
+  :message: ''
+- :test: test_readBit_given_xxx_should_xxx
+  :line: 24
+  :message: ''
+:failures: []
+:ignores: []
+:counts:
+  :total: 3
+  :passed: 3
+  :failed: 0
+  :ignored: 0
+:stdout:
+- ''

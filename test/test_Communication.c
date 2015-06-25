@@ -29,7 +29,7 @@ void test_readBit_given_xxx_should_xxx(){
   readBit(data);
 }
 
-void test_readTurnAroundIO(){}
+//void test_readTurnAroundIO(){}
 
 //void writeTurnAroundIO(){}
 
@@ -38,7 +38,7 @@ void test_readTurnAroundIO(){}
   // writeTurnAroundIO(IO_PIN);
   
   
-}
+//}
 
 // void test_readData_given_0xAB_and_address_0xFACE_should_sent_0xABFACE_and_turnaround_and_receive_0xBE(){
   
