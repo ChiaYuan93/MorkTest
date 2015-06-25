@@ -12,11 +12,17 @@
 - :test: test_readBit_given_xxx_should_xxx
   :line: 24
   :message: ''
+- :test: test_readTurnAroundIO
+  :line: 32
+  :message: ''
+- :test: test_writeTurnAroundIO
+  :line: 39
+  :message: ''
 :failures: []
 :ignores: []
 :counts:
-  :total: 3
-  :passed: 3
+  :total: 5
+  :passed: 5
   :failed: 0
   :ignored: 0
 :stdout:

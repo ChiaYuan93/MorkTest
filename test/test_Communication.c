@@ -29,9 +29,19 @@ void test_readBit_given_xxx_should_xxx(){
   readBit(data);
 }
 
-//void test_readTurnAroundIO(){}
+void test_readTurnAroundIO(){
+  setPinToInput_Expect(IO_PIN);
+  setPinLow_Expect(CLK_PIN);
+  setPinHigh_Expect(CLK_PIN);
+  readturnAroundIO(IO_PIN);
+}
 
-//void writeTurnAroundIO(){}
+void test_writeTurnAroundIO(){
+  setPinToOutput_Expect(IO_PIN);
+  setPinHigh_Expect(CLK_PIN); 
+  setPinLow_Expect(CLK_PIN);
+  writeTurnAroundIO(IO_PIN);
+}
 
 // void test_writeData_given_0xCD_and_address_0xDEAD_and_data_0xCA_should_sent_out_0xCDDEADC0(){
   // int bit;

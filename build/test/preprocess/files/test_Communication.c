@@ -52,3 +52,31 @@ void test_readBit_given_xxx_should_xxx(){
   readBit(data);
 
 }
+
+
+
+void test_readTurnAroundIO(){
+
+  setPinToInput_CMockExpect(33, 4);
+
+  setPinLow_CMockExpect(34, 5);
+
+  setPinHigh_CMockExpect(35, 5);
+
+  readturnAroundIO(4);
+
+}
+
+
+
+void test_writeTurnAroundIO(){
+
+  setPinToOutput_CMockExpect(40, 4);
+
+  setPinHigh_CMockExpect(41, 5);
+
+  setPinLow_CMockExpect(42, 5);
+
+  writeTurnAroundIO(4);
+
+}
